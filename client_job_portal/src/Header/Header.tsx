@@ -1,15 +1,16 @@
 import { Avatar, Indicator } from "@mantine/core";
 import { IconBell, IconSettings, IconTargetArrow } from "@tabler/icons-react";
 import NavLinks from "./NavLinks";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="bg-black  h-20 w-full text-white flex justify-between px-6 items-center">
       {/* ICONS AND LOGO */}
-      <div className="flex gap-1 items-center">
-        <div>
+      <div className="flex gap-1 items-center cursor-pointer">
+        <Link to={"/"}>
           <IconTargetArrow stroke={1.8} className="h-9  w-9  " />
-        </div>
+        </Link>
         <div className="text-3xl font-semibold">
           Job<span className="bg-gradient-to-r from-azure-radiance-200 to-azure-radiance-700  text-transparent bg-clip-text font-bold">Hunter</span>
         </div>

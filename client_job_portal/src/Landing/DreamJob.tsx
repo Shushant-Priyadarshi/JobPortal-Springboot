@@ -15,7 +15,7 @@ const DreamJob = () => {
           A good life begins with a good company. Start exploring thousands of
           jobs in one place and take the first step toward your dream career.
         </p>
-        <button className="mt-6 px-3 py-2 bg-gradient-to-r from-azure-radiance-200 to-azure-radiance-700  text-transparent text-black font-medium text-lg rounded-lg shadow-lg hover:bg-azure-radiance-800 transition-all duration-300">
+        <button className="mt-6 px-3 py-2  bg-azure-radiance-700   text-white font-semibold text-lg rounded-lg shadow-lg hover:bg-azure-radiance-800 transition-all duration-300">
           Get Started
         </button>
       </div>
