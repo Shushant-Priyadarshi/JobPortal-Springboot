@@ -1,6 +1,7 @@
 import { createTheme, MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import HomePage from "./Pages/HomePage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
   const theme = createTheme({
@@ -35,9 +36,12 @@ export default function App() {
   });
   return (
     <MantineProvider theme={theme}>
-      <div className="min-h-[100vh] bg-mine-shaft-950 font-['poppins']">
-        <HomePage />
-      </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="*" element ={<HomePage />}/>
+      </Routes>
+       
+      </BrowserRouter>
     </MantineProvider>
   );
 }

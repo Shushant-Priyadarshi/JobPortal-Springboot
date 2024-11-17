@@ -1,26 +1,22 @@
 import { Avatar, Indicator } from "@mantine/core";
 import { IconBell, IconSettings, IconTargetArrow } from "@tabler/icons-react";
+import NavLinks from "./NavLinks";
 
 const Header = () => {
   return (
-    <div className="bg-mine-shaft-950 h-20 w-full text-white flex justify-between px-6 items-center">
+    <div className="bg-black  h-20 w-full text-white flex justify-between px-6 items-center">
       {/* ICONS AND LOGO */}
       <div className="flex gap-1 items-center">
         <div>
           <IconTargetArrow stroke={1.8} className="h-9  w-9  " />
         </div>
         <div className="text-3xl font-semibold">
-          Job<span className="text-azure-radiance-700 font-bold">Hunter</span>
+          Job<span className="bg-gradient-to-r from-azure-radiance-200 to-azure-radiance-700  text-transparent bg-clip-text font-bold">Hunter</span>
         </div>
       </div>
 
       {/* LANDING PAGE LINKS */}
-      <div className="flex gap-5">
-        <a href="">Find Jobs</a>
-        <a href="">Find Talents</a>
-        <a href="">Upload Jobs</a>
-        <a href="">About Us</a>
-      </div>
+      <NavLinks/>
 
       {/* LANDING PAGE PROFILE */}
       <div className="flex gap-5 items-center ">

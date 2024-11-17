@@ -1,0 +1,29 @@
+import { Link, useLocation } from "react-router-dom";
+
+const NavLinks = () => {
+  const location = useLocation();
+  const links = [
+    { name: "Find Jobs", url: "find-jobs" },
+    { name: "Find Talents", url: "find-talents" },
+    { name: "Upload Jobs", url: "upload-jobs" },
+    { name: "About Us", url: "about" },
+  ];
+  return (
+    <div className="flex gap-5 h-full items-center text-mine-shaft-300">
+      {links.map((link, index) => (
+        <div
+          key={index}
+          className={`${
+            location.pathname === "/" + link.url
+              ? "border-azure-radiance-700 text-azure-radiance-700"
+              : "border-transparent"
+          } border-t-[4px] rounded-b-2xl h-full flex items-center`}
+        >
+          <Link to={link.url}>{link.name}</Link>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default NavLinks;
