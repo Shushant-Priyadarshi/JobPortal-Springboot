@@ -17,7 +17,7 @@ const Header = () => {
       </div>
 
       {/* LANDING PAGE LINKS */}
-      <NavLinks/>
+      {/* <NavLinks/> */}
 
       {/* LANDING PAGE PROFILE */}
       <div className="flex gap-5 items-center ">
@@ -25,7 +25,7 @@ const Header = () => {
           <div>Shushant</div>
           <div>
          
-            <Avatar src="avatar-img.png" alt="it's me" />
+            <Avatar src="/assets/avatar-img.png" alt="it's me" />
            
           </div>
         </div>

@@ -1,5 +1,5 @@
 import Marquee from "react-fast-marquee"
-import { companies } from '../../public/data/Data';
+import { companies } from '../../public/assets/data/Data';
 
 
 const Companies = () => {
@@ -12,7 +12,7 @@ const Companies = () => {
     <div>
     <Marquee pauseOnHover={true}>
         {companies.map((company,index)=><div key={index} className="mx-8 px-2 py-1 mb-10 hover:bg-mine-shaft-950 rounded-lg cursor-pointer">
-            <img className="h-16 " src={`../../public/companies/${company}.png`} alt="logo"/>
+            <img className="h-16 " src={`/assets/companies/${company}.png`} alt="logo"/>
         </div>)}
     </Marquee>
     </div>
