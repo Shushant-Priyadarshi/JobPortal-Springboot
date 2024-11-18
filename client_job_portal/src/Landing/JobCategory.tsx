@@ -38,7 +38,7 @@ const JobCategory = () => {
               <div className="p-2 bg-azure-radiance-700 rounded-full ">
                 <img
                   className="h-8 w-8"
-                  src={`../../public/assets/categories/${category.name}.png`}
+                  src={`assets/categories/${category.name}.png`}
                   alt=""
                 />
               </div>
