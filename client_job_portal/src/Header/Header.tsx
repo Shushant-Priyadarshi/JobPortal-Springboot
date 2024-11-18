@@ -17,7 +17,7 @@ const Header = () => {
       </div>
 
       {/* LANDING PAGE LINKS */}
-      {/* <NavLinks/> */}
+      <NavLinks/>
 
       {/* LANDING PAGE PROFILE */}
       <div className="flex gap-5 items-center ">

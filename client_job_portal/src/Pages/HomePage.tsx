@@ -2,6 +2,8 @@ import Header from "../Header/Header"
 import Companies from "../Landing/Companies"
 import DreamJob from "../Landing/DreamJob"
 import JobCategory from "../Landing/JobCategory"
+import Testimonial from "../Landing/Testimonial"
+
 
 
 const HomePage = () => {
@@ -11,6 +13,7 @@ const HomePage = () => {
         <DreamJob/>
         <Companies/>
         <JobCategory/>
+        <Testimonial/>
     </div>
   )
 }
