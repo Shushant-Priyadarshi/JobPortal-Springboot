@@ -15,9 +15,9 @@ const NavLinks = () => {
           key={index}
           className={`${
             location.pathname === "/" + link.url
-              ? "border-azure-radiance-700 text-azure-radiance-700"
+              ? "border-azure-radiance-700 bg-gradient-to-r from-azure-radiance-200 to-azure-radiance-700 bg-clip-text text-transparent drop-shadow-[0_5px_15px_rgba(0,120,255,3)]"
               : "border-transparent"
-          } border-t-[4px] rounded-b-2xl h-full flex items-center`}
+          } border-t-[5px] rounded-b-2xl h-full flex items-center`}
         >
           <Link to={link.url}>{link.name}</Link>
         </div>
