@@ -76,3 +76,15 @@ export const testimonils = [
     rating:4.5
   },
 ]
+
+export const footerLinks = [
+  {
+    title:"Product",links:["Find Jobs" ,"Find Company" ,"Find Employee"]
+  },
+  {
+    title:"Company",links:["About Us" ,"Contact Us" ,"Privacy Policy","Terms & Conditions"]
+  },
+  {
+    title:"Support",links:["Help & Support" ,"Feedback" ,"FAQs"]
+  }
+]

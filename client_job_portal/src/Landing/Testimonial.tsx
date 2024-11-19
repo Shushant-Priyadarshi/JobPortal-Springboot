@@ -20,19 +20,32 @@ const Testimonial = () => {
         </span>
         .
       </div>
-
-        {testimonils.map((testimonil ,index)=><div key={index} className="">
-        <div className="text-mine-shaft-200 flex flex-col gap-3 [&_.here]:text-mine-shaft-300 w-[23%] border border-azure-radiance-700 p-3 rounded-xl mt-10">
-        <div className="flex  items-center gap-2">
-          <Avatar className="!h-14 !w-14 " src="assets/avatar-img.png" alt="me" />
-          <div>
-            <div className="text-lg">{testimonil.name}</div>
-            <Rating value={testimonil.rating} fractions={2} readOnly />
-          </div>
-        </div>
-        <div className="text-sm here ">{testimonil.feedback}</div>
+      <div>
+        
       </div>
-        </div>)}
+      <div className="flex flex-wrap gap-6 justify-center items-stretch">
+  {testimonils.map((testimonial, index) => (
+    <div
+      key={index}
+      className="w-[300px] max-w-full border border-azure-radiance-700 text-white p-6 rounded-lg shadow-lg"
+    >
+      <div className="flex items-center gap-4 mb-4">
+        <Avatar className="h-14 w-14" src="assets/avatar-img.png" alt="Avatar" />
+        <div>
+          <div className="text-lg font-bold ">
+            {testimonial.name}
+          </div>
+          <Rating value={testimonial.rating} fractions={2} readOnly />
+        </div>
+      </div>
+      <div className="text-sm text-mine-shaft-300 italic">
+        "{testimonial.feedback}"
+      </div>
+    </div>
+  ))}
+</div>
+
+        
      
     </div>
   );
