@@ -3,9 +3,11 @@ import "@mantine/core/styles.css";
 import HomePage from "./Pages/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "@mantine/carousel/styles.css";
-import FindJobs from "./Pages/FindJobs";
+
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import { lazy, Suspense } from "react";
+import PageLoading from "./components/Loader/PageLoading";
 
 export default function App() {
   const theme = createTheme({
@@ -37,19 +39,23 @@ export default function App() {
         "#0e335d",
       ],
     },
-    fontFamily:"poppins,san-serif"
+    fontFamily: "poppins,san-serif",
   });
+  const FindJobPage = lazy(() => import("./Pages/FindJobs"));
+
   return (
     <MantineProvider defaultColorScheme="dark" theme={theme}>
       <BrowserRouter>
-      <div className="font-[poppins] bg-black">
-      <Header/>
-        <Routes>
-          <Route path="/find-jobs" element={<FindJobs />} />
-          <Route path="*" element={<HomePage />} />
-        </Routes>
-        <Footer/>
-        </div>
+        <Suspense fallback={<PageLoading />}>
+          <div className="font-[poppins] bg-black">
+            <Header />
+            <Routes>
+              <Route path="/find-jobs" element={<FindJobPage />} />
+              <Route path="*" element={<HomePage />} />
+            </Routes>
+            <Footer />
+          </div>
+        </Suspense>
       </BrowserRouter>
     </MantineProvider>
   );
