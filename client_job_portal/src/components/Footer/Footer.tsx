@@ -1,13 +1,13 @@
 import { IconBrandInstagram, IconBrandLinkedinFilled, IconBrandTelegram, IconTargetArrow } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
-import { footerLinks } from "../../public/assets/data/Data";
+import { footerLinks } from "../../../public/assets/data/Data";
 
 const Footer = () => {
   return (
-    <div className="pb-5 flex  justify-around">
+    <div className="pb-5 mt-20 flex  justify-around ">
         <div className="w-1/4 flex flex-col gap-4 ">
 
-      <div className="flex text-white gap-1 items-center cursor-pointer">
+      <div className="flex text-white gap-1 items-center cursor-pointer ">
         <Link to={"/"}>
           <IconTargetArrow stroke={1.8} className="h-6  w-6  " />
         </Link>

@@ -1,25 +1,19 @@
-import Footer from "../Footer/Footer"
-import Header from "../Header/Header"
-import Companies from "../Landing/Companies"
-import DreamJob from "../Landing/DreamJob"
-import JobCategory from "../Landing/JobCategory"
-import Subscribe from "../Landing/Subscribe"
-import Testimonial from "../Landing/Testimonial"
-
-
+import Companies from "../components/Landing/Companies";
+import DreamJob from "../components/Landing/DreamJob";
+import JobCategory from "../components/Landing/JobCategory";
+import Subscribe from "../components/Landing/Subscribe";
+import Testimonial from "../components/Landing/Testimonial";
 
 const HomePage = () => {
   return (
     <div className="min-h-[100vh] bg-black font-['poppins']">
-        <Header/>
-        <DreamJob/>
-        <Companies/>
-        <JobCategory/>
-        <Testimonial/>
-        <Subscribe/>
-        <Footer/>
+      <DreamJob />
+      <Companies />
+      <JobCategory />
+      <Testimonial />
+      <Subscribe />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

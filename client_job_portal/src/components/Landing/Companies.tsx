@@ -1,5 +1,5 @@
 import Marquee from "react-fast-marquee"
-import { companies } from "../../public/assets/data/Data"
+import { companies } from "../../../public/assets/data/Data"
 
 
 const Companies = () => {

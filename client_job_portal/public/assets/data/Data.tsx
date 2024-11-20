@@ -1,3 +1,10 @@
+import {
+  IconBriefcase,
+  IconMapPin,
+  IconRecharging,
+  IconSearch,
+} from "@tabler/icons-react";
+
 export const companies = [
   "amazon",
   "figma",
@@ -56,35 +63,79 @@ export const jobCategories = [
 
 export const testimonils = [
   {
-    name:"Ansuman Panda",
-    feedback:"Good shit bhai maja aagyi!",
-    rating:4
+    name: "Ansuman Panda",
+    feedback: "Good shit bhai maja aagyi!",
+    rating: 4,
   },
   {
-    name:"Harkirat",
-    feedback:"Good shit bhai maja aagyi!",
-    rating:3.5
+    name: "Harkirat",
+    feedback: "Good shit bhai maja aagyi!",
+    rating: 3.5,
   },
   {
-    name:"Aanshu Singh",
-    feedback:"Good shit bhai maja aagyi!",
-    rating:2
+    name: "Aanshu Singh",
+    feedback: "Good shit bhai maja aagyi!",
+    rating: 2,
   },
   {
-    name:"Sachin Kumar",
-    feedback:"Good shit bhai maja aagyi!",
-    rating:4.5
+    name: "Sachin Kumar",
+    feedback: "Good shit bhai maja aagyi!",
+    rating: 4.5,
   },
-]
+];
 
 export const footerLinks = [
   {
-    title:"Product",links:["Find Jobs" ,"Find Company" ,"Find Employee"]
+    title: "Product",
+    links: ["Find Jobs", "Find Company", "Find Employee"],
   },
   {
-    title:"Company",links:["About Us" ,"Contact Us" ,"Privacy Policy","Terms & Conditions"]
+    title: "Company",
+    links: ["About Us", "Contact Us", "Privacy Policy", "Terms & Conditions"],
   },
   {
-    title:"Support",links:["Help & Support" ,"Feedback" ,"FAQs"]
-  }
-]
+    title: "Support",
+    links: ["Help & Support", "Feedback", "FAQs"],
+  },
+];
+
+export const dropDownData = [
+  {
+    title: "Job Title",
+    icon: IconSearch,
+    options: [
+      "Designer",
+      "Developer",
+      "Product Manager",
+      "Marketing Specialist",
+      "Data Analyist",
+      "Sales Executive",
+      "Contnet Writer",
+      "Customer Support",
+    ],
+  },
+  {
+    title: "Location",
+    icon: IconMapPin,
+    options: [
+      "Delhi",
+      "New York",
+      "San Fransisco",
+      "London",
+      "Berlin",
+      "Tokyo",
+      "Sydney",
+      "Toronto",
+    ],
+  },
+  {
+    title: "Experience",
+    icon: IconBriefcase,
+    options: ["Entry level", "Intermediate", "Expert"],
+  },
+  {
+    title: "Job Type",
+    icon: IconRecharging,
+    options: ["Full Time", "Part Time", "Contract", "Freelance", "Internship"],
+  },
+];

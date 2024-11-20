@@ -4,7 +4,7 @@ import { IconAt } from "@tabler/icons-react";
 const Subscribe = () => {
   const icon = <IconAt style={{ width: rem(16), height: rem(16) }} />;
   return (
-    <div className="mt-20 mb-20 mx-auto max-w-5xl p-6 rounded-xl border border-azure-radiance-700 shadow-lg ">
+    <div className="mt-20  mx-auto max-w-5xl p-6 rounded-xl border border-azure-radiance-700 shadow-lg ">
       {/* Header Section */}
       <div className="text-center mb-6">
         <h2 className="text-4xl font-semibold text-white">

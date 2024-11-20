@@ -1,5 +1,5 @@
 import { Avatar, Rating } from "@mantine/core";
-import { testimonils } from "../../public/assets/data/Data";
+import { testimonils } from "../../../public/assets/data/Data";
 
 const Testimonial = () => {
   return (
