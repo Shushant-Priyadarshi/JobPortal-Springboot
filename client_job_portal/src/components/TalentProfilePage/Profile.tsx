@@ -3,7 +3,7 @@ import { IconBriefcase, IconMapPin } from "@tabler/icons-react";
 import ExperienceCard from "./ExperienceCard";
 import CertificateCard from "./CertificateCard";
 
-const Profile = (props:any) => {
+const Profile = () => {
   return (
     <div className="w-2/3">
       <div className="relative">
