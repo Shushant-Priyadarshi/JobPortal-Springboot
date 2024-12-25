@@ -59,8 +59,8 @@ const TalentCard = (props: any) => {
             </Button>
           </div>
         </Link>
-        <div>
-          <Button color="azure-radiance.7"  variant="light" fullWidth>
+        <div className="">
+          <Button color="azure-radiance.8"   fullWidth>
             Message
           </Button>
         </div>

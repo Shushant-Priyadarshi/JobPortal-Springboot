@@ -53,6 +53,7 @@ export const searchFields = [
     ],
   },
 ];
+
 export const dummyTalentData = [
   {
     name: "Jarrod Wood",
