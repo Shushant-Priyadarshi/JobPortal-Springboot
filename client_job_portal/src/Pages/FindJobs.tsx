@@ -15,5 +15,4 @@ const FindJobs = () => {
     </div>
   );
 };
-
 export default FindJobs;

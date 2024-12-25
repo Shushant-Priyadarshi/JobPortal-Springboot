@@ -1,5 +1,5 @@
 import { Divider, Text } from "@mantine/core";
-import { IconClockHour3, IconHeart } from "@tabler/icons-react";
+import { IconBookmark, IconClockHour3 } from "@tabler/icons-react";
 
 const JobCard = (props:any) => {
   return (
@@ -20,7 +20,7 @@ const JobCard = (props:any) => {
             </div>
           </div>
         </div>
-        <IconHeart />
+        <IconBookmark />
       </div>
       <div className="flex gap-2 [&>div]:py-1 [&>div]:px-2 [&>div]:bg-mine-shaft-950 [&>div]:text-azure-radiance-700 text-xs [&>div]:rounded-lg">
         <div>{props.experience}</div>

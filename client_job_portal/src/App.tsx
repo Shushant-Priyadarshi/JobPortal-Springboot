@@ -9,6 +9,8 @@ import Footer from "./components/Footer/Footer";
 import { lazy, Suspense } from "react";
 import PageLoading from "./components/Loader/PageLoading";
 import FindTalent from "./Pages/FindTalent";
+import TalentProfilePage from "./Pages/TalentProfilePage";
+
 
 export default function App() {
   const theme = createTheme({
@@ -53,6 +55,7 @@ export default function App() {
             <Routes>
               <Route path="/find-jobs" element={<FindJobPage />} />
               <Route path="/find-talents" element={<FindTalent />} />
+              <Route path="/talent-profile" element={<TalentProfilePage/>} />
               <Route path="*" element={<HomePage />} />
             </Routes>
             <Footer />
