@@ -63,7 +63,7 @@ export const dummyTalentData = [
     about:
       "As a software engineer at Google, I specialised in building scalable and high-performance applications. My expertise lies in integrating frontend and backend technologies to deliver seamless user experience. With a strong foundation in React and Springboot, and focus on MongoDB for database solutions, I am passionate about leveraging the latest technologies to solve complex problems and drive innovation. My goal is to create impactful software that enhances productivity.",
     expectedCTC: "₹48 - 60 LPA",
-    location: "New York, United States",
+    location: "Prayagraj, UP",
     image: "avatar-img",
   },
   {
@@ -196,7 +196,7 @@ export const profileData = {
     name: "Shushant Priyadarshi",
     role: "Software Enginner",
     company: "Google",
-    location: "Prayagraj",
+    location: "Prayagraj, UP",
     about:"As a software engineer at Google, I specialised in building scalable and high-performance applications. My expertise lies in integrating frontend and backend technologies to deliver seamless user experience. With a strong foundation in React and Springboot, and focus on MongoDB for database solutions, I am passionate about leveraging the latest technologies to solve complex problems and drive innovation. My goal is to create impactful software that enhances productivity.",
     skills:["React","SpringBoot","MongoDB","Java","JavaScript","Css","Tailwind Css","MySql","AWS","Linux"],
     experience:[
