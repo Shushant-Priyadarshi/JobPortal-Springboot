@@ -3,6 +3,7 @@ import { IconArrowLeft } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 import Profile from "../components/TalentProfilePage/Profile";
 import RecommendedTalents from "../components/TalentProfilePage/RecommendedTalents";
+import { profileData } from "../../public/assets/data/FindTalentData";
 
 const TalentProfilePage = () => {
   return (
@@ -20,8 +21,8 @@ const TalentProfilePage = () => {
       </Link>
    
 
-      <div className="flex gap-5">
-        <Profile  />
+      <div className="flex gap-5 justify-center">
+        <Profile  {...profileData} />
         <RecommendedTalents/>
       </div>
     </div>

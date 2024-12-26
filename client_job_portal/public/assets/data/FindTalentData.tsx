@@ -56,10 +56,10 @@ export const searchFields = [
 
 export const dummyTalentData = [
   {
-    name: "Jarrod Wood",
+    name: "Shushant Priyadarshi",
     role: "Software Engineer",
     company: "Google",
-    topSkills: ["React" ,"Springboot" ,"Mysql"],
+    topSkills: ["React", "Springboot", "Mysql"],
     about:
       "As a software engineer at Google, I specialised in building scalable and high-performance applications. My expertise lies in integrating frontend and backend technologies to deliver seamless user experience. With a strong foundation in React and Springboot, and focus on MongoDB for database solutions, I am passionate about leveraging the latest technologies to solve complex problems and drive innovation. My goal is to create impactful software that enhances productivity.",
     expectedCTC: "₹48 - 60 LPA",
@@ -70,7 +70,7 @@ export const dummyTalentData = [
     name: "Sophia Turner",
     role: "Data Scientist",
     company: "Meta",
-    topSkills: ["Python","Machine Learning","SQL"],
+    topSkills: ["Python", "Machine Learning", "SQL"],
     about:
       "As a data scientist at Meta, I am dedicated to extracting meaningful insights from large datasets. My expertise includes predictive modeling, data visualization, and statistical analysis. I am passionate about utilizing machine learning to drive decision-making and innovation.",
     expectedCTC: "₹40 - 50 LPA",
@@ -81,7 +81,7 @@ export const dummyTalentData = [
     name: "Ethan Harris",
     role: "DevOps Engineer",
     company: "Amazon",
-    topSkills: ["AWS","Docker","Kubernetes"],
+    topSkills: ["AWS", "Docker", "Kubernetes"],
     about:
       "As a DevOps engineer at Amazon, I specialize in creating efficient CI/CD pipelines and managing scalable infrastructure. My focus is on improving system reliability and performance while automating complex workflows.",
     expectedCTC: "₹35 - 45 LPA",
@@ -92,7 +92,7 @@ export const dummyTalentData = [
     name: "Amelia Johnson",
     role: "UI/UX Designer",
     company: "Adobe",
-    topSkills: ["Figma","Sketch","HTML/CSS"],
+    topSkills: ["Figma", "Sketch", "HTML/CSS"],
     about:
       "As a UI/UX designer at Adobe, I am committed to crafting user-friendly and visually appealing designs. I specialize in creating wireframes, prototypes, and interactive designs that enhance user engagement.",
     expectedCTC: "₹25 - 35 LPA",
@@ -103,7 +103,7 @@ export const dummyTalentData = [
     name: "Liam Carter",
     role: "Full Stack Developer",
     company: "Microsoft",
-    topSkills: ["JavaScript","Node.js","Angular"],
+    topSkills: ["JavaScript", "Node.js", "Angular"],
     about:
       "As a full-stack developer at Microsoft, I am proficient in developing end-to-end web applications. My expertise spans building robust APIs, scalable backend systems, and dynamic user interfaces.",
     expectedCTC: "₹50 - 60 LPA",
@@ -114,7 +114,7 @@ export const dummyTalentData = [
     name: "Olivia Brown",
     role: "Cloud Architect",
     company: "IBM",
-    topSkills: ["Azure","Google Cloud","DevOps"],
+    topSkills: ["Azure", "Google Cloud", "DevOps"],
     about:
       "As a cloud architect at IBM, I specialize in designing and deploying cloud-based solutions. My expertise includes hybrid cloud architecture and implementing secure, scalable environments for enterprise needs.",
     expectedCTC: "₹55 - 70 LPA",
@@ -125,7 +125,7 @@ export const dummyTalentData = [
     name: "Noah Wilson",
     role: "Cybersecurity Analyst",
     company: "Cisco",
-    topSkills: ["Network Security","Penetration Testing","Firewalls"],
+    topSkills: ["Network Security", "Penetration Testing", "Firewalls"],
     about:
       "As a cybersecurity analyst at Cisco, I am focused on protecting systems from cyber threats. My expertise includes vulnerability assessments, incident response, and security policy development.",
     expectedCTC: "₹30 - 40 LPA",
@@ -136,7 +136,7 @@ export const dummyTalentData = [
     name: "Emma Davis",
     role: "Product Manager",
     company: "Apple",
-    topSkills: ["Agile","Leadership","Product Design"],
+    topSkills: ["Agile", "Leadership", "Product Design"],
     about:
       "As a product manager at Apple, I lead cross-functional teams to deliver innovative products. My strengths lie in strategic planning, market analysis, and delivering customer-centric solutions.",
     expectedCTC: "₹60 - 75 LPA",
@@ -147,7 +147,7 @@ export const dummyTalentData = [
     name: "Mason Lee",
     role: "Backend Developer",
     company: "Netflix",
-    topSkills: ["Java","PostgreSQL","Springboot"],
+    topSkills: ["Java", "PostgreSQL", "Springboot"],
     about:
       "As a backend developer at Netflix, I focus on building efficient and scalable server-side applications. My expertise includes API development, database management, and ensuring system robustness.",
     expectedCTC: "₹45 - 55 LPA",
@@ -158,7 +158,7 @@ export const dummyTalentData = [
     name: "Ava Martinez",
     role: "AI Engineer",
     company: "OpenAI",
-    topSkills: ["Deep Learning","NLP","TensorFlow"],
+    topSkills: ["Deep Learning", "NLP", "TensorFlow"],
     about:
       "As an AI engineer at OpenAI, I am driven to develop cutting-edge artificial intelligence solutions. My work focuses on natural language processing, neural networks, and advancing AI technologies for real-world applications.",
     expectedCTC: "₹70 - 85 LPA",
@@ -169,7 +169,7 @@ export const dummyTalentData = [
     name: "Evelyn Walker",
     role: "Blockchain Developer",
     company: "Ripple",
-    topSkills: ["Ethereum","Solidity","Smart Contracts"],
+    topSkills: ["Ethereum", "Solidity", "Smart Contracts"],
     about:
       "As a blockchain developer at Ripple, I create decentralized applications and smart contracts. My focus is on leveraging blockchain technology to build secure and efficient financial solutions.",
     expectedCTC: "₹50 - 65 LPA",
@@ -180,7 +180,7 @@ export const dummyTalentData = [
     name: "Benjamin Hall",
     role: "Mobile App Developer",
     company: "Uber",
-    topSkills: ["Kotlin","Swift","Flutter"],
+    topSkills: ["Kotlin", "Swift", "Flutter"],
     about:
       "As a mobile app developer at Uber, I specialize in creating user-friendly and performance-optimized applications. My expertise spans native and cross-platform app development to deliver seamless user experiences.",
     expectedCTC: "₹40 - 50 LPA",
@@ -189,3 +189,45 @@ export const dummyTalentData = [
   },
 ];
 
+export const profileData = {
+  
+    bannerImg: "banner.jpg",
+    avatarImg: "avatar-img.png",
+    name: "Shushant Priyadarshi",
+    role: "Software Enginner",
+    company: "Google",
+    location: "Prayagraj",
+    about:"As a software engineer at Google, I specialised in building scalable and high-performance applications. My expertise lies in integrating frontend and backend technologies to deliver seamless user experience. With a strong foundation in React and Springboot, and focus on MongoDB for database solutions, I am passionate about leveraging the latest technologies to solve complex problems and drive innovation. My goal is to create impactful software that enhances productivity.",
+    skills:["React","SpringBoot","MongoDB","Java","JavaScript","Css","Tailwind Css","MySql","AWS","Linux"],
+    experience:[
+      {
+      role:"Software Enginner",
+      company:"Google",
+      location:"New Delhi",
+      time:"Jan 2022 - Present",
+      description:"  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quibusdam quia. Nostrum incidunt possimus error sequi a similique laborum adipisci. Atque quas ipsa esse culpa at necessitatibus sit numquam reprehenderit veritatis. Expedita, tempora consectetur?"
+    },
+    {
+      role:"Fullstack Developer",
+      company:"Snapchat",
+      location:"Bangalore",
+      time:"2018 - 2022",
+      description:"  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quibusdam quia. Nostrum incidunt possimus error sequi a similique laborum adipisci. Atque quas ipsa esse culpa at necessitatibus sit numquam reprehenderit veritatis. Expedita, tempora consectetur?"
+    },
+  ],
+  certificate:[
+    {
+      name:"Cloud Certification",
+      issuedBy:"Google",
+      issuedAt:"Jun 2023",
+      issuedId:"IASDNDAS123"
+    },
+    {
+      name:"Fullstack Certification",
+      issuedBy:"Snapchat",
+      issuedAt:"Jan 2023",
+      issuedId:"USADDASD232"
+    },
+  ]
+
+};
