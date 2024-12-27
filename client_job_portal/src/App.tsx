@@ -8,8 +8,6 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { lazy, Suspense } from "react";
 import PageLoading from "./components/Loader/PageLoading";
-import FindTalent from "./Pages/FindTalent";
-import TalentProfilePage from "./Pages/TalentProfilePage";
 
 
 export default function App() {
@@ -44,7 +42,13 @@ export default function App() {
     },
     fontFamily: "poppins,san-serif",
   });
+
+  // IMPORTING PAGES LAZY LOADING
   const FindJobPage = lazy(() => import("./Pages/FindJobs"));
+  const FindTalent = lazy(() => import("./Pages/FindTalent"));
+  const TalentProfilePage = lazy(() => import("./Pages/TalentProfilePage"));
+  const UploadJobsPage = lazy(() => import("./Pages/UploadJobsPage"));
+  const AboutUsPage = lazy(() => import("./Pages/AboutUsPage"));
 
   return (
     <MantineProvider defaultColorScheme="dark" theme={theme}>
@@ -56,6 +60,8 @@ export default function App() {
               <Route path="/find-jobs" element={<FindJobPage />} />
               <Route path="/find-talents" element={<FindTalent />} />
               <Route path="/talent-profile" element={<TalentProfilePage/>} />
+              <Route path="/upload-jobs" element={<UploadJobsPage/>} />
+              <Route path="/about" element={<AboutUsPage/>} />
               <Route path="*" element={<HomePage />} />
             </Routes>
             <Footer />

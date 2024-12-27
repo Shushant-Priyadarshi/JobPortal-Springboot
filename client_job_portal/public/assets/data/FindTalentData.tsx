@@ -211,7 +211,7 @@ export const profileData = {
       role:"Fullstack Developer",
       company:"Snapchat",
       location:"Bangalore",
-      time:"2018 - 2022",
+      time:"Sep 2018 - 2022",
       description:"  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quibusdam quia. Nostrum incidunt possimus error sequi a similique laborum adipisci. Atque quas ipsa esse culpa at necessitatibus sit numquam reprehenderit veritatis. Expedita, tempora consectetur?"
     },
   ],
