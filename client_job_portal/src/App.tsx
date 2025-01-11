@@ -12,6 +12,9 @@ import PageLoading from "./components/Loader/PageLoading";
 
 export default function App() {
   const theme = createTheme({
+    focusRing:"never",
+    primaryColor:"azure-radiance",
+    primaryShade:7,
     colors: {
       "mine-shaft": [
         "#f6f6f6",
@@ -47,7 +50,7 @@ export default function App() {
   const FindJobPage = lazy(() => import("./Pages/FindJobs"));
   const FindTalent = lazy(() => import("./Pages/FindTalent"));
   const TalentProfilePage = lazy(() => import("./Pages/TalentProfilePage"));
-  const UploadJobsPage = lazy(() => import("./Pages/UploadJobsPage"));
+  const PostJobsPage = lazy(() => import("./Pages/PostJobsPage"));
   const AboutUsPage = lazy(() => import("./Pages/AboutUsPage"));
 
   return (
@@ -60,7 +63,7 @@ export default function App() {
               <Route path="/find-jobs" element={<FindJobPage />} />
               <Route path="/find-talents" element={<FindTalent />} />
               <Route path="/talent-profile" element={<TalentProfilePage/>} />
-              <Route path="/upload-jobs" element={<UploadJobsPage/>} />
+              <Route path="/post-jobs" element={<PostJobsPage/>} />
               <Route path="/about" element={<AboutUsPage/>} />
               <Route path="*" element={<HomePage />} />
             </Routes>

@@ -1,12 +1,15 @@
 import { Divider } from '@mantine/core'
+import PostJob from '../components/PostJobs/PostJob'
 
 
 const UploadJobsPage = () => {
   return (
-    <div className=" min-h-[100vh] text-white">
+    <>
     <Divider size="xs" mx="md"/>
-    Upload Jobs
+    <div className=" min-h-[100vh] text-white p-4">
+    <PostJob/>
   </div>
+  </>
   )
 }
 
