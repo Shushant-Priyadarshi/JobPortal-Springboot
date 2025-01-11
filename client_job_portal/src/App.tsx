@@ -1,5 +1,6 @@
 import { createTheme, MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
+import '@mantine/tiptap/styles.css';
 import HomePage from "./Pages/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "@mantine/carousel/styles.css";
